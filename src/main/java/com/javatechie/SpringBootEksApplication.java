@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringBootEksApplication {
 
 
-    @GetMapping("/greetings")
+    @GetMapping("/")
     public String message() {
-        return "Welcome to javatechie ! app deployed in AWS EKS";
+        return "Happy NEW YEAR !!! App deployed in AWS EKS";
     }
 
     public static void main(String[] args) {
