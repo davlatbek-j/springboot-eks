@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequiredArgsConstructor
 
-//@Controller
-//@RequestMapping("/")
+@Controller
+@RequestMapping("/")
 public class HomeController
 {
     @GetMapping
