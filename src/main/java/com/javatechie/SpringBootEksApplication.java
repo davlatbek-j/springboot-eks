@@ -14,7 +14,7 @@ public class SpringBootEksApplication
     @GetMapping("/")
     public String message()
     {
-        return "Happy NEW YEAR !!! App deployed in AWS EKS . " + System.getenv("HOSTNAME");
+        return "Happy NEW YEAR !!! App Successfully deployed";
     }
 
     public static void main(String[] args)
